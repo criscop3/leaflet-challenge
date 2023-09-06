@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Leaflet Step-1</title>
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin="" />
+
+  <!-- Our CSS -->
+  <link rel="stylesheet" type="text/css" href="static/css/style.css">
+</head>
+
+<body>
+
+  <!-- The div that holds our map -->
+  <div id="map">
+    <div id="legend" style="position: absolute; bottom: 50px; right: 50px; padding: 10px; background: white;">
+      <div><b>DEPTH</b></div>
+      <div><span style="display: inline-block; width: 14px; height: 14px; background-color: #A3F600; vertical-align: middle;"></span> -10-10</div>
+      <div><span style="display: inline-block; width: 14px; height: 14px; background-color: #DCF400; vertical-align: middle;"></span> 10-30</div>
+      <div><span style="display: inline-block; width: 14px; height: 14px; background-color: #F7DB11; vertical-align: middle;"></span> 30-50</div>
+      <div><span style="display: inline-block; width: 14px; height: 14px; background-color: #FDB72A; vertical-align: middle;"></span> 50-70</div>
+      <div><span style="display: inline-block; width: 14px; height: 14px; background-color: #FCA35D; vertical-align: middle;"></span> 70-90</div>
+      <div><span style="display: inline-block; width: 14px; height: 14px; background-color: #FF5F65; vertical-align: middle;"></span> 90+</div>
+    </div>
+  </div>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+  <!-- D3 JavaScript -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <!-- Our JavaScript -->
+  <script type="text/javascript" src="static/js/logic.js"></script>
+</body>
+
+</html>
